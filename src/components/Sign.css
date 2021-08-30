@@ -1,0 +1,64 @@
+.sign-in {
+    width: 25rem;
+    height: fit-content;
+    display: grid;
+    place-items: center;
+    margin: 8rem 2rem;
+    padding: 3rem 1.5rem;
+    place-items: center;
+    border: 2px solid #002407;
+    border-radius: 2rem;
+    background:#e7ddbd;
+}
+
+.sign-in>h2 {
+    font-family: Lobster, monospace;
+    font-size: 2.4rem;
+    font-weight: 100;
+    color: #7d675f;
+    margin-bottom: 2rem;
+}
+
+.sign-in>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in>form>input {
+    width: 20rem;
+    height: 2.2rem;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.4rem;
+    border: 2px solid #002407;
+}
+
+.sign-in>form>button {
+    width: 20rempx;
+    height: 2.2rem;
+    font-size: 1.4rem;
+    color: #e7ddbd;
+    background-color: #7d675f;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    border: 2px solid #002407;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.sign-in>form>button:hover {
+    background: #002407;
+}
+
+.sign-in>h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #7d675f;
+}
+
+.sign-in>h4>a {
+    text-decoration: none;
+    color: #002407;
+}
